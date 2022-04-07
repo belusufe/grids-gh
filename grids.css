@@ -1,0 +1,416 @@
+html {
+    font-size:  62.5%; /*convierte de 1 rem = 16 px a 1 rem = 10px*/ 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto ;
+     grid-template-rows: auto auto auto auto auto auto auto;
+}
+.elemento1{
+}
+
+.logo{
+}
+
+
+   
+ul { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;  
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 20px 20px ;
+    background-color: #333333;
+    font-size: 2.2rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+  }
+
+li a {
+        color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  2.5rem
+    }
+
+.fondoHeader{
+        background-image: linear-gradient(to right,#3ba6d7, #00ffff , #0000ff);
+        width: 1847px;
+        height: 320px;
+        padding: 20px 20px 20px 20px ;
+        border-radius: 30px;
+    }
+
+.elemento2{
+}
+
+.slidesize{
+    border-radius: 30px;
+    width:1877px;
+}
+   
+.elemento3{
+}
+
+.fuentesTitulo {
+    background-image: linear-gradient(to right,#3ba6d7, #00ffff , #0000ff);
+    border-radius: 30px;
+    color: white;
+    padding: 20px 20px 20px 20px ;
+    margin-left: 10px;
+    width: 1847px;
+    height: 35px;
+    margin: 0;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size:  2.5rem
+    }
+
+    p {
+        width: 1847px;
+        font-size:  2.5rem
+    }
+
+
+         
+.elemento4{
+}
+
+.elemento5{
+}
+
+.elemento6{
+}
+
+.elemento7{
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+background-color: #3ba6d7;
+width: 1900px;
+height: 300px;
+font-size: 2.5rem;
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+border-radius: 30px;
+}
+
+.pFooter{
+    font-size:  1rem
+}
+
+
+.elemento1{
+}
+.elemento2{
+}
+.fuentesTitulo1{
+background-color: #dad3d3;
+border-radius: 30px;
+color: white;
+padding: 20px 20px 20px 20px ;
+margin-left: 10px;
+width: 1847px;
+height: 35px;
+margin: 0;
+font-family: "Comic Sans MS", sans-serif;
+font-size:  2.5rem
+}
+
+.elemento3{
+}
+.elemento4{
+}
+
+.slide1{
+    border-radius: 30px;
+    width:1877px;
+}
+
+.elemento5{
+}
+
+.slide2{
+    border-radius: 30px;
+    width:1877px;
+}
+
+.elemento6{
+}
+
+.slide3{
+    border-radius: 30px;
+    width:1877px;
+}
+
+@media (max-width: 500px) {
+
+.elemento1{
+}
+
+.logo{
+    width: 60px;
+    height: 60px;   
+    padding: 10px 10px 10px 10px ;
+}
+
+ul { 
+   
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;  
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 20px 20px ;
+    background-color: #333333;
+    font-size:  0.8rem
+  }
+
+li a {
+        color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  0.8rem
+    }
+
+.fondoHeader{
+    background-color: #3ba6d7;
+    width: 970px;
+    height: 75px;
+    padding: 20px 20px 20px 20px ;
+    border-radius: 30px;
+    font-size: 0.8rem;
+}
+
+.elemento2{
+}
+
+.slidesize{
+    border-radius: 30px;
+    width: 1000px;
+}
+
+.elemento3{
+}
+
+.fuentesTitulo{
+    background-color: #bbb8b8;
+    padding: 20px 20px 20px 20px ;
+    margin-left: 0.5px;
+    width: 970px;
+    height: 5px;
+    border-radius: 30px;
+    font-size:0.8rem;
+}
+
+.elemento4{
+}
+
+.toner{
+    width: 80px;
+    height: 80px;
+}
+
+.epsonalt{
+    width: 80px;
+    height: 80px;
+}
+
+.mouse{
+    width: 80px;
+    height: 80px;
+}
+.elemento5{
+   
+}
+.elemento6{
+    font-size:0.8rem;
+    text-align: justify;
+}
+.saboteur{
+    width: 80px;
+    height: 80px;
+    margin-left: 0.5px;
+}
+
+.acrilico{
+    width: 80px;
+    height: 80px;
+}
+.elemento7{   
+}
+
+.pFooter{
+    font-size:  0.5rem
+}
+
+.pSeguinos{
+    font-size:  0.5rem
+}
+
+.insta{
+    display: grid;
+    justify-self: auto;
+}
+
+.face{
+    display: grid;
+    justify-self: auto;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+    justify-self: auto;
+}
+
+.wsp{
+    display: flex;
+    flex-direction: row;
+    justify-self: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+background-color: #3ba6d7;
+width: 1900px;
+height: 300px;
+font-size: 0.8rem;
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
+border-radius: 30px;
+}
+
+
+.elemento1{
+}
+.logo{
+    width: 60px;
+    height: 60px;   
+    padding: 10px 10px 10px 10px ;
+}
+
+ul { 
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;  
+    list-style-type: none;
+    margin: 0;
+    padding: 20px 20px 20px 20px ;
+    background-color: #333333;
+    font-size:  0.8rem
+  }
+
+li a {
+        color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size:  0.8rem
+    }
+    .fondoHeader{
+        background-color: #3ba6d7;
+        width: 970px;
+        height: 75px;
+        padding: 20px 20px 20px 20px ;
+        border-radius: 30px;
+        font-size: 0.8rem;
+    }
+
+    
+.elemento2{
+}
+.fuentesTitulo1{
+background-color: #dad3d3;
+border-radius: 30px;
+color: white;
+padding: 20px 20px 20px 20px ;
+margin-left: 10px;
+width: 970px;
+height: 40px;
+margin: 0;
+font-family: "Comic Sans MS", sans-serif;
+font-size:  2.5rem
+}
+
+.elemento3{
+}
+.elemento4{
+}
+
+.slide1{
+    border-radius: 30px;
+    width: 1000px;
+}
+
+.elemento5{
+}
+
+.slide2{
+    border-radius: 30px;
+    width: 1000px;
+}
+
+.elemento6{
+}
+
+.slide3{
+    border-radius: 30px;
+    width: 1000px;
+}
+.elemento7{
+}
+}
+.pFooter{
+    font-size:  0.5rem
+}
+
+
+.pSeguinos{
+    font-size:  1rem
+}
+
+.pEscribinos{
+    font-size:  1rem
+}
+.insta{
+    display: grid;
+    justify-self: auto;
+}
+
+.face{
+    display: grid;
+    justify-self: auto;
+}
+
+.mail{
+    display: flex;
+    justify-self: auto;
+}
+
+.wsp{
+    display: flex;
+    justify-self: auto;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+background-color: #3ba6d7;
+width: 1900px;
+height: 300px;
+font-size: 0.8rem;
+font-family: 'Open Sans', sans-serif;
+text-align: justify;
+border-radius: 30px;
+}
+
